@@ -1,0 +1,40 @@
+#HomepageContent {
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    text-align: left;
+    gap: 8px;
+    max-width: 600px;
+}
+
+#HomepageContent h1 {
+    font-size: 3rem;
+}
+
+#HomepageContent p {
+    font-size: 1.4rem;
+}
+
+#HomepageContent a {
+    text-decoration: none;
+    background-color: #2f54fb;
+    border: 1px solid #2f54fb;
+    padding: 8px 14px;
+    color: #ffffff;
+    width: fit-content;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: background-color 150ms, border 150ms;
+}
+
+#HomepageContent a:nth-child(even) {
+    border: 1px solid #2f54fb;
+    background-color: transparent;
+}
+
+#HomepageContent a:hover {
+    background-color: #69BAF0;
+    border: 1px solid #69BAF0;
+}
