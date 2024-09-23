@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
-import "./Homepage.css";
+import { useEffect } from "react";
 
 function Homepage() {
+    useEffect(() => {
+        document.title = "Homepage";
+    });
+
     return(
-        <div id="HomepageContent">
+        <div className="w-100 px-4">
             <h1>Database management web app</h1>
             <p>Full CRUD functionality through a web front</p>
-            <span>
-                <Link to={""}>Get started</Link>
-                <Link to={""}>Sign In</Link>
+            <span className="d-flex gap-3">
+                <Link className="btn text-reset btn-primary" to={"signin"}>Get started</Link>
+                <Link className="btn text-reset btn-outline-secondary" to={"login"}>Log In</Link>
             </span>
         </div>
     )
