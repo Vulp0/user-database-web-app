@@ -45,6 +45,17 @@ body, #root {
   align-items: center;
 }
 
+#topbar {
+  place-content: end;
+}
+
+#dashboardContainer {
+  width: 95%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* #root {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

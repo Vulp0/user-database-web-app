@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Signin() {
+    useEffect(() => {
+        document.title = "Sign in";
+    });
+
     return (
         <form className="FormContainer p-3 border border-secondary rounded">
             <h1 className="mb-3">Create an account</h1>
