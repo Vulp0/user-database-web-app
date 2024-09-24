@@ -15,8 +15,8 @@ function Signin() {
                 <input className="form-control" type="text" name="name" id="InputName" placeholder="Your full name" required />
             </div>
             <div className="d-flex flex-column mb-2">
-                <label htmlFor="InputPosition">Position</label>
-                <input className="form-control" type="text" name="position" id="InputPosition" placeholder="Your role in the company" />
+                <label htmlFor="InputPosition">*Position</label>
+                <input className="form-control" type="text" name="position" id="InputPosition" placeholder="Your role in the company" required/>
             </div>
             <div className="d-flex flex-column mb-2">
                 <label htmlFor="InputEmail">*Email</label>

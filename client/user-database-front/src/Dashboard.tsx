@@ -14,15 +14,21 @@ function Dashboard() {
 
             <div id="tableContainer">
                 <div className="controls mb-2">
-                    <button className="btn btn-secondary mx-2"><span className="material-symbols-sharp">lock</span></button>
-                    <button className="btn btn-secondary mx-2"><span className="material-symbols-sharp">lock_open</span></button>
-                    <button className="btn btn-danger mx-2"><span className="material-symbols-sharp">delete</span></button>
+                    <button className="btn btn-secondary mx-2">
+                        <span className="material-symbols-sharp">lock</span>
+                    </button>
+                    <button className="btn btn-secondary mx-2">
+                        <span className="material-symbols-sharp">lock_open</span>
+                    </button>
+                    <button className="btn btn-danger mx-2">
+                        <span className="material-symbols-sharp">delete</span>
+                    </button>
                 </div>
 
                 <table className="usersTable table table-striped table-dark table-hover table-sm">
                     <thead>
                         <tr>
-                            <th><input type="checkbox" name="" id="" /></th>
+                            <th><input type="checkbox" name="" id="selectAllCheckbox" /></th>
                             <th>UserID</th>
                             <th>Name</th>
                             <th>Position</th>
