@@ -56,6 +56,14 @@ body, #root {
   flex-direction: column;
 }
 
+.FormContainer span {
+  color: #ffc107;
+}
+
+#loginStatusText {
+  color: red;
+}
+
 /* #root {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

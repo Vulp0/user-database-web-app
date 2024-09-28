@@ -9,14 +9,13 @@ const { Users } = require("../models");
     }
 */
 
-router.get("/", async (req, res) => {
-    const data = req.body;
+router.post("/", async (req, res) => {
+    const givenEmail = req.body.Email;
     const amount = await Users.count({
         where: {
-            Email: data.Email
+            Email: givenEmail
         }
     });
-
     res.json(amount);
 });
 

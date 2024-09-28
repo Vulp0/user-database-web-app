@@ -5,7 +5,7 @@ const { Users } = require("../models");
 /* Request example:
     {
         "Name": "John Doe",
-        "Position": "CTO",              // Optional
+        "Position": "CTO",              // Optional, sign in form shouldn't stop you from creating an account without a position
         "Email": "jdoe@fakemail.com"
     }
 */
