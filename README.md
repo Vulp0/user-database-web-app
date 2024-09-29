@@ -10,7 +10,7 @@ Web application that lets you interact with users from a database through a Reac
 
 * Next, go to the `server` folder with your terminal and enter `npm install`
 
-* Open another terminal on the same folder, but go to `client/user-database-front` instead and enter `npm install again`
+* Open another terminal on the same folder, but go to `client/user-database-front` instead and enter `npm install` again
 
 * To start the whole thing, run `npm run startServer` in your server terminal, and `npm run dev -- --host` in your client/react terminal
 
